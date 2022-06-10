@@ -12,16 +12,119 @@
             <ul>
                 <il><a href="#case-studies">Case Studies</a></il>
                 <il><a href="#services">Services</a></il>
-                <il><a href="#contact">Contact Us</a></il>
+                <il><a href="#contact-content">Contact Us</a></il>
              </ul>
         </nav>
-
-        <h1>Your website is an investment in the success of your business.</h1>
-        <p>We are here to help you succeed.</p>
-        <button type="button">
+        <div class="header-text">
+        <h1 class="header-h1">Your website is an investment in the success of your business.</h1>
+        <p class="header-p">We are here to help you succeed.</p>
+            <a href="#contact-content">
+            <button class="header-button" type="button">
             Let's work together
         </button>
+            </a>
+        </div>
+        <div class="background-image"><img src="./assets/squiggle_line_stripe.svg" alt="squiggle_line_stripe"></div>
     </div>
 </header>
+<section class="outer-container">
+    <div class="inner-container">
+        <article class="article-hello">
+            <h1 class="hello-h1">Rekupe is a digital agency in Los Angeles. <br><br>
+                We use strategic UX, SEO optimization and beautiful visual designs to help your business grow. <br><br> We see every project as a fresh opportunity, pushing ourselves to create new digital experiences. </h1>
+
+            <p class="hello-p">Have a question? <a href="#contact-content" class="click-here">Click here</a> to contact us!</p>
+        </article>
+    </div>
+</section>
+<section class="outer-container portfolio-section">
+    <div class="inner-container" id="case-studies">
+        <article class="work-article">
+            <div class="work-article-text">
+                <h1>Rolling Stone</h1>
+                <img class="squiggle-line" src="./assets/squiggle_line.svg" alt="squiggle">
+                <p>You know Rolling Stone. It’s the definitive voice in music, politics and culture. It’s a global icon.</p>
+                <a href="#rolling-stone" class="project-link">view project</a>
+            </div>
+            <div class="work-article-picture">
+                <img class="portfolio-img" src="./assets/work-image-01.jpeg" alt="rolling-stone">
+            </div>
+        </article>
+        <article class="work-article work-middle-article">
+            <div class="work-article-text">
+                <h1>Variety</h1>
+                <img class="squiggle-line" src="./assets/squiggle_line.svg" alt="squiggle">
+                <p>Variety is an industry leader for breaking entertainment news, reviews and box office results with archive of content dating back to 1905.</p>
+                <a href="#variety" class="project-link">view project</a>
+            </div>
+            <div class="work-article-picture">
+                <img class="portfolio-img" src="./assets/work-image-02.jpeg" alt="variety">
+            </div>
+        </article>
+        <article class="work-article work-last-article">
+            <div class="work-article-text">
+                <h1>Worth</h1>
+                <img class="squiggle-line" src="./assets/squiggle_line.svg" alt="squiggle">
+                <p>A global media platform connecting a community that embraces worth beyond wealth.</p>
+                <a href="#worth" class="project-link">view project</a>
+            </div>
+            <div class="work-article-picture"><img class="portfolio-img" src="./assets/work-image-03.jpeg" alt="worth">
+            </div>
+        </article>
+    </div>
+</section>
+<section class="outer-container">
+    <div class="inner-container service-section" id="services">
+        <article class="web-design service-article">
+            <img class="service-img" src="./assets/icon_web-design.svg" alt="web-design">
+            <h1 class="services-title">Web Design</h1>
+            <p class="service-text"> Good web design is how companies stand out from their competitors. High quality web design leads to increased user conversion and engagement. Through a proven web design process, we help clients launch websites and products that improve on their bottom line.</p></article>
+        <article class="web-development service-article">
+            <img class="service-img" src="./assets/icon_web-development.svg" alt="web-development">
+            <h1 class="services-title">Web Development</h1>
+            <p class="service-text">Modern websites need to be responsive and fully functional at all sizes. We develop all of our sites with a mobile first approach and ensure that our code quality is clean, organized and performant. Already have a design but need it developed? We’re here to help!</p></article>
+        <article class="user-experience service-article">
+            <img class="service-img" src="./assets/icon_ux.svg" alt="ux">
+            <h1 class="services-title">User Experience</h1>
+            <p class="service-text">In order to build successful products you have to understand the user. We create user personas, wireframes and prototypes to test with users. This allows us to gather feedback which helps to shape the product and can quickly eliminate potential risks – saving you time and money.</p></article>
+        <article class="logo-des-branding service-article">
+            <img class="service-img" src="./assets/icon_graphic-design.svg" alt="graphic-design">
+            <h1 class="services-title">Logo Design + Branding</h1>
+            <p class="service-text">Nike, Apple, Coca-Cola, Starbucks. What do all of these brands have in common? Easily recognizable logos and brand identity. The best brands stand out from the crowd by having a clear and unique point of view. We will work with you to understand your vision and help create a unique brand identity and style guide for your company.</p></article>
+        <article class="seo service-article">
+            <img class="service-img" src="./assets/icon_seo.svg" alt="seo">
+            <h1 class="services-title">SEO</h1>
+            <p class="service-text">Do you want your site to rank higher in search results? Google is constantly changing their algorithms for how they rank pages. Don’t worry about constantly playing catch-up. We will make sure your website it optimized, providing you the best opportunities for organic search exposure.</p></article>
+        <article class="copy-writing service-article">
+            <img class="service-img" src="./assets/icon_copywriting.svg" alt="copy writing">
+            <h1 class="services-title">Copy Writing</h1>
+            <p class="service-text">Brand messaging needs to be clear, direct and easy to understand to be effective. A unique tone of voice will help you stand out from the crowd and build brand loyalty. We work with you to establish your brand bible and ensure your messaging is focused and targeted.</p></article>
+    </div>
+</section>
+<section class="outer-container contact-section">
+    <div class="inner-container">
+        <div class="contact-content" id="contact-content">
+            <h1 class="contact-title">Let's work together</h1>
+            <p class="contact-text">Have a quastion? Need a quote? Let us know!</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Name">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="E-mail">
+                <label for="message">Message</label>
+                <textarea id="message" type="message" rows="10" cols="30"placeholder="Message"></textarea>
+            </form>
+            <button class="contact-button" type="button">
+                send
+            </button>
+        </div>
+    </div>
+</section>
 </body>
+    <div class="outer-container footer-section">
+        <div class="inner-container">
+            <p class="footer-text">Business website opdracht © NOVI Hogeschool 2022</p>
+        </div>
+    </div>
+</footer>
 </html>
